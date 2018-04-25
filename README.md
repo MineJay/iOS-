@@ -8,8 +8,8 @@
 
 如果按钮少了，则可以直接拖出几个 View Controller 放在 Storyboard 中，然后按住 CTRL 连接到相应的界面即可，如下图
 
-![1](/Users/mac/Desktop/GitHub/iOS-Note/image/1.png)
-![2](/Users/mac/Desktop/GitHub/iOS-Note/image/2.png)
+![1](https://github.com/MineJay/iOS-Note/blob/master/image/1.png)
+![2](https://github.com/MineJay/iOS-Note/blob/master/image/2.png)
 
 但是按钮非常多呢？10个按钮？15个？更多？如果再按上述方法，拖出10多个新的 View Controller 放在 Storyboard 中，然后挨个连线？这样不仅你的 Storyboard 看起来非常的拥挤凌乱，而且会非常卡！尤其是在项目大了以后，卡的飞起！用大佬的话说：这显然很蠢！（虽然我现在还是个非常菜的菜鸟）
 
@@ -18,15 +18,15 @@
 
 新建一个项目，在 Storyboard 中加入10个按钮，并嵌入 Navigation Controller（我这里为了方便，直接拖拽的（当然你也可以用代码创建）如下图 
 
-![3](/Users/mac/Desktop/GitHub/iOS-Note/image/3.png)
+![3](https://github.com/MineJay/iOS-Note/blob/master/image/3.png)
 
 然后将 Storyboard 中的按钮和 ViewController.swift 的代码连接起来（按住 CTRL ，然后你们懂得），这里我只是连接了一部分，如下图
 
-![5](/Users/mac/Desktop/GitHub/iOS-Note/image/5.png)
+![5](https://github.com/MineJay/iOS-Note/blob/master/image/5.png)
 
 新建一个 Cocoa Touch Class 文件，取名为 SecondViewController，继承于 UIViewController
 
-![4](/Users/mac/Desktop/GitHub/iOS-Note/image/4.png)
+![4](https://github.com/MineJay/iOS-Note/blob/master/image/4.png)
 
 在刚才新建的SecondViewController.swift 的 viewDidLoad() 方法中 加入如下代码
 
@@ -57,7 +57,7 @@
 
 运行程序，并点击按钮 1 ，你应该会看到如下界面
 
-![6](/Users/mac/Desktop/GitHub/iOS-Note/image/6.png)
+![6](https://github.com/MineJay/iOS-Note/blob/master/image/6.png)
 
 
 
@@ -81,7 +81,7 @@
 	
 运行，点击按钮 1，会看到如下界面
 
-![7](/Users/mac/Desktop/GitHub/iOS-Note/image/7.png)
+![7](https://github.com/MineJay/iOS-Note/blob/master/image/7.png)
 
 
 #### 接下来实现代理反向传值
