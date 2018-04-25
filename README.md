@@ -86,17 +86,51 @@
 
 #### 接下来实现代理反向传值
 
+当然你也可以用刚才的方法进行反向传值，这里我们采用代理的方法，进行反向传值。
+
+> 代理反向传值：通俗的说，就是先定义一个protocol（协议），然后在这个协议里定义一个用于传值的方法。现在 Class A 需要将值传给 Class B ，在 Class A 中定义一个 delegate（代理），该 delegate 的类型是协议类型。然后在 Class A 中的某个地方调用协议中定义的方法，具体的方法实现交给遵循这个协议的 Class B 来完成，这样就实现了 协议--代理 的模式，Class A 让 Class B 做了其想让 Class B 做的事。如下图
+
+![10](https://upload-images.jianshu.io/upload_images/1199539-8842e8d62162f7e6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)
+
+#### 如何用代码实现
+进入 SecondViewController.swift 中，在 Class SecondViewController 外面加入一个 protocol（协议），
+
+	protocol SecondVCDelegate {
+    	func passData(VC: SecondViewController,value: String)
+	}
+
+在 Class SecondViewController 加入如下代码
+
+	var delegate:SecondVCDelegate?
+
+> 
+
+	 @objc func closeVC() {
+        if delegate != nil {
+            self.delegate?.passData(VC: self, value: textField.text!)
+        }
+        self.navigationController?.popToRootViewController(animated: true)
+    }
 
 
+回到 ViewController.swift 中，加入如下代码
+
+	extension ViewController: SecondVCDelegate {
+	    func passData(VC: SecondViewController, value: String) {
+	        self.label.text = value
+	    }
+	}
+
+在按钮 2 的响应中，加入如下代码
+
+	let secondVC = SecondViewController()
+    secondVC.delegate = self
+    self.navigationController?.pushViewController(secondVC, animated: true)
 
 
+#### 运行程序，点击按钮 2 ，在 textField 中输入内容，点击 back 按钮，就可以在主界面看到传回的值了。这样，就实现了用代理反向传值。
 
-
-
-
-
-
-
+### 传值的原理，就是先获取具体的实例对象，然后通过某个属性或媒介传值
 
 
 
