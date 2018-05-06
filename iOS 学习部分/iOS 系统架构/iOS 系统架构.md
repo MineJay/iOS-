@@ -29,4 +29,3 @@
 核心系统层为上层结构提供最基础的服务，如系统内核服务、本地认证（指纹等）、安全、加速等
 
 ![](https://github.com/MineJay/iOS-Note/blob/master/iOS%20%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86/iOS%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/OS.jpg)
-
