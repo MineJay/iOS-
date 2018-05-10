@@ -19,10 +19,10 @@
 |问题描述|链接|
 | :---------------: | :------: |
 |iOS 系统架构|[详情](https://github.com/MineJay/iOS-Note/blob/master/iOS%20%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86/iOS%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84/iOS%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md)|
-|六大常用设计模式|[详情]()|
+|六大常用设计模式|[详情](https://github.com/MineJay/iOS-Note/blob/master/iOS%20%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86/%E5%85%AD%E5%A4%A7%E5%B8%B8%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%85%AD%E5%A4%A7%E5%B8%B8%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)|
 |常用的 framework|[详情]()|
-|Runtime|[详情]()|
-|消息机制|[详情]()|
+|Runtime|[详情](https://github.com/MineJay/iOS-Note/blob/master/iOS%20%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86/Runtime/Runtime.md)|
+|消息机制|[详情](https://github.com/MineJay/iOS-Note/blob/master/iOS%20%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86/%E6%B6%88%E6%81%AF%E6%9C%BA%E5%88%B6/%E6%B6%88%E6%81%AF%E6%9C%BA%E5%88%B6.md)|
 |内存管理|[详情]()|
 |对象生命周期|[详情]()|
 |json、xml|[详情]()|

@@ -53,7 +53,7 @@ ivars：成员变量的数组
 
 现在来看看个各类、对象、元类之间的关系（图中，实线是 super_class 指针，虚线则是 isa 指针）：
 
-![]()
+![](https://github.com/MineJay/iOS-Note/blob/master/iOS%20%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86/Runtime/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202018-05-09%20%E4%B8%8B%E5%8D%887.58.25.png)
 
 
 
