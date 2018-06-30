@@ -12,7 +12,6 @@
 |下载图片到TableView，图片显示错乱|[解决办法](https://github.com/MineJay/iOS-Note/blob/master/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E5%88%B0TableView%EF%BC%8C%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%94%99%E4%B9%B1/%E4%B8%8B%E8%BD%BD%E5%9B%BE%E7%89%87%E5%88%B0TableView%EF%BC%8C%E5%9B%BE%E7%89%87%E6%98%BE%E7%A4%BA%E9%94%99%E4%B9%B1.md)|
 |APP从后台启动时做相应的事|[解决办法](https://github.com/MineJay/iOS-Note/blob/master/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/APP%E4%BB%8E%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E6%97%B6%E5%81%9A%E7%9B%B8%E5%BA%94%E7%9A%84%E4%BA%8B/APP%E4%BB%8E%E5%90%8E%E5%8F%B0%E5%90%AF%E5%8A%A8%E6%97%B6%E5%81%9A%E7%9B%B8%E5%BA%94%E7%9A%84%E4%BA%8B.md)|
 |ScrollView导致Timer失效|[解决办法](https://github.com/MineJay/iOS-Note/blob/master/iOS%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/ScrollView%E5%AF%BC%E8%87%B4Timer%E5%A4%B1%E6%95%88/ScrollView%E5%AF%BC%E8%87%B4Timer%E5%A4%B1%E6%95%88.md)|
-|初探OpenCV|[解决办法]()|
 
 
 
